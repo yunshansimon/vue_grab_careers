@@ -82,6 +82,9 @@
         activate(done){
             let self=this
             self.selected_key=Object.getOwnPropertyNames(self.options)[0]
+            if(self.selected_key.includes('__')){
+                self.selected_key=Object.getOwnPropertyNames(self.options)[1]
+            }
             self.selected_value=self.options[self.selected_key]
             done()
         }

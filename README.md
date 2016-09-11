@@ -1,6 +1,11 @@
 # vue_grab_careers
 
-> vue_brab_careers
+> vue_grab_careers
+ * I'm a front-end engineer and I need a job
+ * This is a web-app to optimize a [site](https://https://grab.careers). Which use Bootstrap and Angular 1.x
+ * I use Vue to speed up the job searching function.
+ * And make a lot of change.
+ * Visit my [site]()
 
 ## Build Setup
 
@@ -23,5 +28,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](https://github.com/vuejs-templates/webpack#vue-webpack-boilerplate) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
