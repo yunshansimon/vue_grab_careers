@@ -33,9 +33,12 @@
                         <span class="fa fa-map-marker"></span>
                         {{job.categories.location}}
                     </div>
-                    <div class="more_button">
-                        View More
-                    </div>
+                    <a href="{{job.hostedUrl}}">
+                        <div class="more_button">
+                            View More
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>
