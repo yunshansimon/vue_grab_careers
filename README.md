@@ -1,11 +1,21 @@
 # vue_grab_careers
 
 > vue_grab_careers
- * I'm a front-end engineer and I need a job
- * This is a web-app to optimize a [site](https://https://grab.careers). Which use Bootstrap and Angular 1.x
- * I use Vue to speed up the job searching function.
- * And make a lot of change.
- * Visit my [site]()
+ * I'm a front-end engineer
+ * This web-app is powered by Vuejs and the prototype is [grab.careers](https://grab.careers). Which use Bootstrap and Angular 1.x
+ * I want to speed up the job searching function. And reduced most unused lib.
+ * You can visit the new [site](http://iwxpublish.oss-cn-hangzhou.aliyuncs.com/vue/index.html)
+ * Vuejs replaced JQuery/Bootstrap/Angular. It make code simple and beautiful.
+ 
+## Source Code Structure
+```
+  index.htm -----------first load file
+  ./src ---------------source code
+  ./src/components ----Vue components
+  ./src/common --------project's config file and comon functions
+  ./src/assets --------pictures and other resources
+  ./dist --------------compiled code
+```
 
 ## Build Setup
 
