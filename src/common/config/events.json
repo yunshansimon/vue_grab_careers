@@ -1,0 +1,5 @@
+{
+  "ShowOnLoading":"show-on-loading-window",
+  "ShowError":"show-error-window",
+  "ShowMsg":"show-message-window"
+}
