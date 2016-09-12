@@ -96,6 +96,8 @@ export default {
     position: relative;
     height: 100%;
     width: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
 
   #app {

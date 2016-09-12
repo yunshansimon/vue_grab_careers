@@ -17,7 +17,7 @@
                                 Jobs
                             </div>
                         </a>
-                        <a>
+                        <a v-link="{path:'/teams'}">
                             <div class="button">
                                 Meet Our Engineering Team
                             </div>

@@ -4,7 +4,7 @@
             <div slot="front" class="content front">
                 <div class="font_title">JOIN US IN OUR MISSION TO</div>
                 <div class="font_emphasis">REVOLUTIONIZE TRANSPORTATION</div>
-                <a>
+                <a v-link="{path:'/jobs'}">
                     <div class="button">JOIN US</div>
                 </a>
             </div>
