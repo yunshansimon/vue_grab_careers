@@ -1,11 +1,17 @@
 # vue_grab_careers
 
 > vue_grab_careers
- * I'm a front-end engineer
- * This web-app is powered by Vuejs and the prototype is [grab.careers](https://grab.careers). Which use Bootstrap and Angular 1.x
- * I want to speed up the job searching function. And reduced most unused lib.
- * You can visit the new [site](http://iwxpublish.oss-cn-hangzhou.aliyuncs.com/vue/index.html)
+ * I'm a front-end engineer, and I'm seeking a new job now.
+ * The prototype is [grab.careers](https://grab.careers). Which used Bootstrap and Angular 1.x
+ * I want to speed up the web, including reducing unused lib and css files. Make the code elegant.
+ * You can visit the new [site](http://iwxpublish.oss-cn-hangzhou.aliyuncs.com/vue/index.html) to watch the result.
  * Vuejs replaced JQuery/Bootstrap/Angular. It make code simple and beautiful.
+
+> It is a good sample to starter. You can learn from this app:
+ * How to use vuejs to build a web-app fast and easy.
+ * The new page arrangement method in css3 (flex).
+ * How to use "rem" replace "px", to build a web page.
+ * How to use ES6 promise.
  
 ## Source Code Structure
 ```
