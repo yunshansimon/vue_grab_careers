@@ -32,11 +32,12 @@
             </div>
         </div>
         <div class="filter_video">
-            <div class="front">
-                <slot name="front"></slot>
-            </div>
             <div class="background">
                 <slot name="back"></slot>
+            </div>
+            <div class="cover"></div>
+            <div class="front">
+              <slot name="front"></slot>
             </div>
         </div>
     </div>
@@ -83,16 +84,25 @@
     .filter_video{
         position: relative;
         width: 100%;
-        z-index: -50;
+    }
+
+    .filter_video .cover{
+      top:0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      text-align: left;
+      background: rgba(0,0,0,0.7);
+      opacity: .8;
     }
 
     .filter_video .front{
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        text-align: left;
-        background: rgba(0,0,0,0.2);
-        opacity: .8;
+      top:0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      text-align: left;
+      background-color: transparent;
     }
 
     .background {
